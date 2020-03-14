@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+#header{
+    background-image: url('img/food-bg.jpg');
+    /* position: relative; */
+    background-position:top;
+    background-size: cover;
+    height: 68vw;
+}
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+    
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important
+}
+#footer {
+    margin-top: 200px;
+    background-image: #f4f4f6 !important;
+}
+.col {
+    /* background-color: #1E242A !important */
+    margin-top:5px ;
+}
+/* .card-a{
+    background-image: linear-gradient(to top,#9be15d 0%, #00e3ea 100%);
+}
+.card-b{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100% );
+}
+.card:hover{ 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} */
+.col-center{
+    margin-top: 50px;
+}
+.grid-container{
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.btn-floating{
+    display: inline;
+    text-align: center;
+    padding: 16px;
+    border-radius: 50%;
+    line-height: 24px;
+    font-size: 24px;
+    width:44px;
+}
+
+.card-image{
+    min-height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.card-title{
+    font-size: 30px;
+    line-height: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 24px 44px 26px 24px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.card a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.card-action{
+    position: absolute;
+    z-index: 1;
+    bottom: -24px;
+    right: 16px;
+}
+.text-strong {
+    font-weight: 700;
+    line-height: 24px;
+}
+li .fa {
+    padding: calc(10px + (10 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    font-size: calc(15px + (20 - 15) * ((100vw - 360px) / (1600 - 360))) !important;
+    width: calc(30px + (38 - 30) * ((100vw - 360px) / (1600 - 360))) !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px !important;
+    margin: 6px !important
+}
+
+a {
+    text-decoration: none !important
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white
+}
+
+.fa:hover {
+    background-color: transparent !important
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white
+}
+
+.fa-instagram {
+    background: #3f729b;
+    color: white
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: white
+}
+li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 30px;
+}
+.text-small {
+    font-size: 14px;
+}
